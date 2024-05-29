@@ -1,0 +1,392 @@
+/* Header Container:: */
+.header-container {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden; 
+}
+
+
+.header-container::before {
+   content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("summit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 255, 0.5); 
+    z-index: -1;  
+    /* image-rendering: crisp-edges; */
+    background-size: cover;
+}
+
+.header-container h2 {
+    color: aliceblue;
+    margin: 0;
+    z-index: 1; 
+}
+
+
+
+.header-container h2 span {
+    font-weight: bolder;
+}
+
+.header-container button {
+    border-radius: 20px;
+    background-color: rgb(97, 228, 97);
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    z-index: 1; /* Ensure button appears above the overlay */
+}
+
+
+/* About irex css */
+
+.aboutirex-container {
+    padding: 40px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: url("backimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(white,rgb(131, 131, 130)); 
+    background-blend-mode: darken;
+}
+
+.aboutirex-container h2 span, .aboutirex-container p span {
+    font-weight: bold;
+}
+
+
+/* irex visit submit:: */
+
+.irexvisit-container{
+    margin: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh; 
+}
+
+.irexvisit-conetnt{
+    background-color: rgb(32, 32, 94);
+    padding: 10px;
+    text-decoration: antiquewhite;
+    width: 50%;
+    width: 50%;
+    height: 100%; 
+    box-sizing: border-box;
+}
+
+.irexvisit-conetnt h3{
+    color: antiquewhite;
+    text-align: center;
+}
+
+.irexvisit-conetnt ul{
+    color: antiquewhite;
+}
+
+.irex-submit {
+    width: 50%;
+    height: 100%; 
+    box-sizing: border-box; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+}
+
+.irex-submit img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+/* Participations conetnt css:: */
+.participation-container{
+    padding: 40px;
+    text-align: center;
+}
+
+.participation-container h2:nth-of-type(n+2) {
+    font-weight: bold;
+}
+
+
+/* Immigrations experts css:: */
+
+.experts-container{
+    padding: 30px;
+}
+
+.experts-container h2{
+    text-align: center;
+    margin: 12px;
+    font-weight: 700;
+}
+
+.experts-container img{
+    height: 200px;
+    margin: 30px;
+}
+
+.experts{
+
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+
+
+/* Flag CSS:: */
+
+.arrow-button {
+    background-color: #929191;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.flag-container{
+    padding: 30px;
+    background-color: rgb(224, 224, 224);
+}
+
+.flag-container h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 8px;
+    margin-bottom: 40px;
+
+}
+
+.flags1{
+    height: 12vh;
+    width: 12vw;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.flags1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* Registration form css */   
+
+.register-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.register-form {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group.row {
+    margin-bottom: 15px;
+}
+
+.register-container{
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+}
+
+.register-form{
+    width: 70vw;
+}
+
+.register-container h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 8px;
+    margin-bottom: 40px;
+}
+
+.disclaimer-container{
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+
+.disclaimer-container p{
+    size: 10px;
+    font-size: 12px;
+    /* font-style: italic; */
+}
+
+
+/* FOOTER CSS */
+
+.footer-container{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+}
+
+.footer-container p{
+    color: antiquewhite;
+    font-size: 14px;
+}
+
+.footer-container p:first-of-type{
+    color:rgb(4, 172, 40);
+} 
+
+.irexvisit-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.irexvisit-conetnt {
+    background-color: rgb(32, 32, 94);
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+}
+
+
+.irexvisit-conetnt ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.irexvisit-conetnt ul li::before {
+    content: '•';
+    color: antiquewhite;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em;
+    text-align: center;
+}
+
+
+.irex-submit {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.irex-submit img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.header-container {
+    height: 60vh;
+    text-align: center;
+    background-color: rgba(179, 177, 177, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.header-container h2 {
+    color: aliceblue;
+    font-weight: bolder;
+    margin: 0;
+    animation: slideUp 1s ease forwards;
+    opacity: 0;
+}
+
+.header-container h2:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.header-container h2:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.header-container h2:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+.header-container img {
+    animation-delay: 0.5s;
+}
+
+.header-container button {
+    border-radius: 20px;
+    background-color: rgb(97, 228, 97);
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    animation: fadeIn 2s ease forwards;
+    opacity: 0;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
